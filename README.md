@@ -10,7 +10,7 @@ When you want to reuse an instance and build new instance on top of that you use
 
 Types of Design Patterns
 
-1. Creational
+1. Creational <br/>
 	a) It deals with creation of an object
 2. Structural
 	a) It deals with the composition of object. 
