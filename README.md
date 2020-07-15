@@ -27,6 +27,7 @@ Type:-
 4. Adapter Pattern
 5. FlyWeight Pattern
 
+
 Proxy Pattern:-
 	A proxy hides the  complexitiy involved in communicating with real object. An object that represent another object.
 	E.g. A debit card is proxy to bank account.Any transation done by debit card result in decrease of amount in  bank account.
