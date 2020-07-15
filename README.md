@@ -10,30 +10,30 @@ Design Patterns
 
 Types of Design Patterns
 
-	1. Creational <br/>
-		a) It deals with creation of an object <br/>
-	2. Structural <br/>
-		a) It deals with the composition of object. <br/>
-		b) More precisly what does a class contain? and what it's relationhip with other classes? Inheritance or composition <br/>
-	3. Behavioural <br/>
+	1. Creational 
+		a) It deals with creation of an object
+	2. Structural 
+		a) It deals with the composition of object. 
+		b) More precisly what does a class contain? and what it's relationhip with other classes? Inheritance or composition 
+	3. Behavioural 
 		a) It deals with behaviour of object i.e. interaction between object <br/>
 
 
 Structural Design Pattern:-
 
-	Type:- <br/>
-	1. Proxy Pattern <br/>
-	2. Decorator Pattern <br/>
-	3. Facade Pattern <br/>
-	4. Adapter Pattern <br/>
-	5. FlyWeight Pattern <br/>
+	Type:- 
+	1. Proxy Pattern 
+	2. Decorator Pattern 
+	3. Facade Pattern 
+	4. Adapter Pattern 
+	5. FlyWeight Pattern 
 
 
-Proxy Pattern:- <br/>
+Proxy Pattern:- 
 
-	A proxy hides the  complexitiy involved in communicating with real object. An object that represent another object.<br/>
+	A proxy hides the  complexitiy involved in communicating with real object. An object that represent another object.
 	E.g. A debit card is proxy to bank account.Any transation done by debit card result in decrease of amount in  bank account.
-	Similarly, you have to program an interaction with other remote object. In such scenario, <br/>
-		1. you would create proxy to take care of all external communications <br/>
-		2. You would communicate with it as if it were residing in your local machine <br/>
+	Similarly, you have to program an interaction with other remote object. In such scenario, 
+		1. you would create proxy to take care of all external communications 
+		2. You would communicate with it as if it were residing in your local machine 
  	A good example is the EJB Home and Remote interfaces.
