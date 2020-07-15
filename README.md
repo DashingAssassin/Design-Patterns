@@ -49,3 +49,27 @@ Decorator Pattern:-
 	2. Real life programming example IO package of  java new BufferedReader(new InputStreamReader(System.in)).
 	Here system.in can be replaced by any input source.	The input source can be referred to by any stream resource
 	You can use it with Buffer or not.
+
+Facade Pattern:-
+
+	A facade is a single class that represent an entire subsystem.
+	E.g. An event manager which handles everything(food,decorations,inviting people etc.)
+	Advantage of this pattern is that it
+		1. It reduces network calls 
+		2. It reduces coupling classes
+		3. succeeds in establishing transaction boundry between communicating objects. 
+	Facades like services, are good hubs to implement transaction
+
+Adapter Pattern:-
+
+	Adapter is used to match interfaces of different classes.
+	Real life programming example Interservice calls when one service accepts data in xml and you have json you will convert it into xml.
+	
+
+FlyWeight Pattern:-
+
+	A flyweight represents creating a fine-grained instance that is being used for efficient sharing.
+	Cache an instance and use it again and again . Provided no update are being for a specific case.
+	E.g. PSTN network(When a fixed set of telephone lines is being used by many customer but these are not utilizing the lines at the same time)
+	JDBC Connection Pool is an example f FlyWeight when the set of  instance can be used to multiple times to execute the query
+	Advantage:- reduces cost involved in creating and closing a connection.
