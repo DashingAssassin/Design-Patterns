@@ -37,3 +37,15 @@ Proxy Pattern:-
 		1. you would create proxy to take care of all external communications 
 		2. You would communicate with it as if it were residing in your local machine 
  	A good example is the EJB Home and Remote interfaces.
+	
+Decorator Pattern:-
+
+	The decorator pattern allows us to add responsibilities to objects, dynamically.
+	This allows user how they want to structure different classes to represent different combination 
+	e.g. 
+	1. Three classes Pizza, Topping(A,B,C,D,E,F ...), Size(Large, Medium,Small)
+	Either you can have different types of toppings  class and provide them pizza like Atopping(Pizza), BToppings(Pizza) etc.
+	Or have Topping(Pizza TypeOfTopping) i.e. composition.
+	2. Real life programming example IO package of  java new BufferedReader(new InputStreamReader(System.in)).
+	Here system.in can be replaced by any input source.	The input source can be referred to by any stream resource
+	You can use it with Buffer or not.
