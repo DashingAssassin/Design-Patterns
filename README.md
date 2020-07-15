@@ -20,6 +20,7 @@ Types of Design Patterns
 
 
 Structural Design Pattern:-
+
 	Type:- <br/>
 	1. Proxy Pattern <br/>
 	2. Decorator Pattern <br/>
@@ -29,9 +30,10 @@ Structural Design Pattern:-
 
 
 Proxy Pattern:- <br/>
+
 	A proxy hides the  complexitiy involved in communicating with real object. An object that represent another object.<br/>
 	E.g. A debit card is proxy to bank account.Any transation done by debit card result in decrease of amount in  bank account.
 	Similarly, you have to program an interaction with other remote object. In such scenario, <br/>
-	1. you would create proxy to take care of all external communications <br/>
-	2. You would communicate with it as if it were residing in your local machine <br/>
+		1. you would create proxy to take care of all external communications <br/>
+		2. You would communicate with it as if it were residing in your local machine <br/>
  	A good example is the EJB Home and Remote interfaces.
