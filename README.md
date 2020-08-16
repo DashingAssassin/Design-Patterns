@@ -37,6 +37,13 @@ Proxy Pattern:-
 		1. you would create proxy to take care of all external communications 
 		2. You would communicate with it as if it were residing in your local machine 
  	A good example is the EJB Home and Remote interfaces.
+	Advantages:-
+		1. Security: as direct access to real object is blocked
+		2. As duplication of the object is avoided which may be huge in size an increase in performance can be obsered
+	Disadvanatages:-
+		1. Some client may access the real object and some may access the proxy this can cause dispartite behaviour
+		
+
 	
 Decorator Pattern:-
 
